@@ -1,0 +1,76 @@
+h1, #reName {
+	margin-left: 15%;
+}
+
+.column {
+	float: left;
+}
+#users-column {
+	width: 20%;
+}
+
+.online {
+	color: lime;
+}
+.offline {
+	color: red;
+}
+
+#chat-column {
+	width: 70%;
+}
+
+#chatHeader {
+	text-align: center;
+}
+#chat {
+	border: solid 1px;
+	width: 100%;
+	height: 70vh;
+	overflow: auto;
+	word-wrap: break-word;
+}
+#chatMessage {
+	width: 100%;
+	resize: none;
+}
+
+.notification {
+	margin-left: 15px;
+	padding: 3px;
+	color: white;
+	background-color: #1a1a1a;
+	border-radius: 40%;
+	font-family: "Monospace";
+	display: none;
+}
+
+.newMessage {
+	background-color: #1a1a1a;
+}
+.pendingMessage {
+	color: gray;
+}
+.highlight {
+	transition: ease 1s 1s;
+	color: inherit;
+	background-color: inherit;
+}
+
+body{
+	background-color: #3c3c3c;
+	color: white;
+	min-height: 100%;
+}
+a:visited
+{
+	color: white;
+}
+a:hover
+{
+	color: white;
+}
+a
+{
+	color: white;
+}
