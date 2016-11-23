@@ -15,12 +15,10 @@
 		<link rel="stylesheet" href="emoji/emojione.min.css">
 		<script src="emoji/emojione.min.js"></script>
 
-		<link rel="stylesheet" href="main.css">
-
-
 		<link href="auto/shCoreDefault.css" rel="stylesheet">
 		<link rel="stylesheet" href="auto/main.css">
 
+		<link rel="stylesheet" href="main.css">
 		
 	</head>
 
@@ -58,7 +56,7 @@ $('#chatMessage').textcomplete([
     },
     { // tech companies
 	id: 'tech-companies',
-	words: ['Apple', 'Google', 'Facebook', 'GitHub'],
+	words: ['Google', 'Facebook', 'GitHub', 'TechEdu++'],
 	match: /\b(\w{2,})$/,
 	search: function (term, callback) {
 	    callback($.map(this.words, function (word) {
@@ -71,7 +69,7 @@ $('#chatMessage').textcomplete([
 	}
     },
     { // html
-        mentions: ['yuku_t'],
+        mentions: ['Alex Tsvetanov', 'Dimo Chanev', 'Delian Pirinski', 'Krasi Paskalev', 'Krasen Ferdinandov', 'Vasil Tinchev'],
         match: /\B@(\w*)$/,
         search: function (term, callback) {
             callback($.map(this.mentions, function (mention) {
