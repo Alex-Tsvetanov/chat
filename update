@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "# chat" >> README.md
+echo "# chat" > README.md
 git init
 git add -A
 git commit -m "first commit"
